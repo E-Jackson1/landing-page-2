@@ -1,0 +1,31 @@
+
+.header {
+    margin: 0;
+    padding: 5px 15px;
+    background-color: #ff9922;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    position: static;
+}
+
+.left-header {
+    gap: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.right-header {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 16px;
+    font-size: 24px;
+}
+
+img {
+    height: 75px;
+    width: auto;
+    border-radius: 50%;
+}
