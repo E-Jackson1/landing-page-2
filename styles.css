@@ -1,12 +1,13 @@
-
+body {
+    margin: auto;
+    max-width: auto;
+}
 .header {
-    margin: 0;
     padding: 5px 15px;
     background-color: #ff9922;
     align-items: center;
     justify-content: space-between;
     display: flex;
-    width: 100%;
     position: static;
 }
 
@@ -25,7 +26,6 @@
 }
 
 img {
-    height: 75px;
+    height: 60px;
     width: auto;
-    border-radius: 50%;
 }
