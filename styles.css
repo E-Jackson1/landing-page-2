@@ -1,7 +1,10 @@
 body {
+    background-image: url('images/kame-house.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     margin: auto;
     max-width: auto;
-    background-color: lightsalmon;
 }
 .header {
     padding: 5px 15px;
@@ -34,6 +37,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 85%;
 }
 
 .hero-img img {
